@@ -77,7 +77,7 @@ h2, h3{
 }
 
 
-footer {
+/* footer {
     background-color: dimgray;
     color: #fff;
     padding: 30px 0;
@@ -86,14 +86,15 @@ footer {
     color: #ccc;
     font-size: 12px;
     width: 100%;
-}
+} */
 .col-md-12 {
     justify-content: center;
 }
 
-#contactFooter {
-margin: 135px 0px 0px 0px;
-}
+
+#sticky-footer {
+    flex-shrink: none;
+  }
 
 #carouselExampleCaptions{
     max-width: 400px; 
