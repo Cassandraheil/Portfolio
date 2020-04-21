@@ -73,8 +73,20 @@ h1 {
     border-bottom: 3px solid #ddd;
     padding-bottom: 20px;
 }
+#connectWithMe{
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: 500;
+    border-bottom: 3px solid #ddd;
+    text-align: center;
+}
 h2, h3{
     font-size: 22px;
+}
+
+.connect{
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 
@@ -93,20 +105,45 @@ footer {
     justify-content: center;
 }
 
+.form-control {
+    transition: all 1s ease-in-out;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+form .submit{
+    background: navy;
+    color: oldlace;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover{
+    background-color: teal;
+    cursor: pointer;
+}
+
 
 #sticky-footer {
     flex-shrink: none;
   }
 
 
-#carouselExampleCaptions{
-    max-width: 400px; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.wrapper{
+    width:100%; 
+    height: auto;
+    overflow: hidden;
+    
 }
-.carousel-item{
-    max-width: 400px;
+.item{
+    height: 600px;
+    width: 100%;
+    padding: 10px;
+    background-color: navy;
+    margin: 10px;
 }
 
 #food{
@@ -141,21 +178,11 @@ h4{
     line-height: 30px;
     margin-bottom: 0;
     font-weight: 300;
-    border-radius: 10px;
-}
-.carousel-control-prev-icon{
-    background-color: slategray;
-    border-radius: 10px;
-}
-.carousel-control-next-icon{
-    background-color: slategray;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .descript{
-    display: block;
-    text-align: right;
+    color: oldlace;
 }
-
 
 @media screen and (max-width: 600px) {
     .link {
