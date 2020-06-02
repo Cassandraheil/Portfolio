@@ -181,6 +181,20 @@ h4{
     font-weight: 200;
     border-radius: 15px;
 }
+
+.skillList {
+    border: 8px solid grey;
+    padding: 15px;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+  }
+
+ul {
+    border: 5px solid grey;
+}
+  
+
 .descript{
     color: oldlace;
 }
