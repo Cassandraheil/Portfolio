@@ -4,21 +4,30 @@
     float: left;
     margin-top: 10px;
     margin-right: 25px;
+    border: 10px double gainsboro;
+    border-radius: 350px;
 }
-.mywork {
+/* .mywork {
     height: auto;
     width: 100%;
     margin-top: 10px;
     margin-right: 25px;
+    border: 10px solid black;
+} */
+.pic {
+    border: 5px solid black;
+    border-radius: 100px;
 }
 
 #logo{
     font-family: 'molle';
-    padding: 5px;
+    padding: 10px;
+    padding-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
     background-color: navy;
     border-radius: 30px;
+    font-size: 45px;
 }
 .container {
     width: 100%;
@@ -34,15 +43,21 @@ header {
 }
 .main-container {
     padding-top: 130px;
-    background: #fff;
+    background-color: aliceblue;
     padding: 30px; 
     padding-bottom: 80px;
     width: 100%;
     max-width: 960px;
-    border: 1px solid #ddd;
+    border: 1px solid lightcyan;
     height: 100%;
     position: relative;
     margin: 25px;
+    overflow: auto;
+    border-radius: 50px;
+}
+.portfolio-container {
+    padding-top: 30px;
+    max-width: 1500px;
     overflow: auto;
 }
 
@@ -51,7 +66,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #777;
+    color: darkslategrey;
 }
 
 
@@ -144,23 +159,30 @@ form .submit:hover{
     padding: 10px;
     background-color: navy;
     margin: 10px;
+    border: 5px solid dimgray;
 }
+
 
 #food{
     font-family: 'Gorditas';
+    color: darkred;
 }
 #train{
     /* font-family: 'Allerta Stencil'; */
     font-family: 'Cinzel Decorative';
+    color: darkslategrey;
 }
 #cartoon{
-    font-family: 'Spicy Rice'; 
+    font-family: 'Spicy Rice';
+    color: darkmagenta; 
 }
 #zeldaTrivia{
     font-family: 'Press Start 2P';
+    color: darkgreen;
 }
 #crystal{
     font-family: 'Fontdiner Swanky';
+    color: rgb(40, 72, 168);
 }
 #zeldaWord{
     font-family: 'Alegreya';
@@ -192,6 +214,7 @@ h4{
 
 ul {
     border: 5px solid grey;
+    border-radius: 30px;
 }
   
 
