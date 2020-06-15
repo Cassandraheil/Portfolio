@@ -305,6 +305,13 @@ ul {
     border-radius: 20px;
     width: 50%;
 }
+#teemo13{ 
+    border: 8px dotted darkorchid;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    width: 50%;
+}
 
 @media screen and (max-width: 600px) {
     .link {
