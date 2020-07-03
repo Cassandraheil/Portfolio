@@ -154,7 +154,7 @@ form .submit:hover{
     
 }
 .item{
-    height: 600px;
+    height: 800px;
     width: 100%;
     padding: 10px;
     background-color: navy;
@@ -220,6 +220,8 @@ ul {
 
 .descript{
     color: oldlace;
+    margin: 0px;
+    padding: 0px;
 }
 
 #teemo1{ 
