@@ -154,7 +154,7 @@ form .submit:hover{
     
 }
 .item{
-    height: 800px;
+    height: 100%;
     width: 100%;
     padding: 10px;
     background-color: navy;
@@ -216,6 +216,9 @@ h4{
 ul {
     border: 5px solid grey;
     border-radius: 30px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }  
 
 .descript{
