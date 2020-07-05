@@ -187,6 +187,31 @@ form .submit:hover{
 #zeldaWord{
     font-family: 'Alegreya';
 }
+#burger{
+    font-family: 'Bangers';
+    color: darkorange;
+}
+#adventure {
+    font-family: 'Bubblegum Sans';
+    color: aqua;
+    
+}
+#friend {
+    font-family: 'Gorditas';
+    color:rgb(151, 16, 129);
+}
+#todos {
+    font-family: 'Nunito';
+    color: rgb(30, 4, 121);
+}
+#cwazy {
+    font-family: 'Carter One';
+    color: peru;
+}
+#kathy {
+    font-family: 'Montserrat Subrayada';
+    color: purple;
+}
 h4{
     color: navy;
     background-color: dimgray;
