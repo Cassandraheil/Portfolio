@@ -62,7 +62,9 @@ header {
 }
 
 body {
-    background: url('./images/embossed-diamond.png');
+    background: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v627-aew-39-technologybackground_1.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=80&usm=15&vib=3&w=1300&s=48fcf4ce5caa64c70116077143e370f8');
+    /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQlNhuyN3VVql6aGknRyNldroUV_YBtjcPgCw&usqp=CAU); */
+  background-attachment: fixed;
     font-size: 18px;
     line-height: 34px;
     font-family: Arial, Helvetica, sans-serif;
