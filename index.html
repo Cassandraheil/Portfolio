@@ -6,6 +6,12 @@
   <link rel="stylesheet" type="text/css" href="reset.css">
   <!-- jquery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- popper.js  -->
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+
+  <!-- font awesome  -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -27,6 +33,7 @@
   <!-- owl carousel  -->
   <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
   <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
 </head>
 
 <body>
@@ -43,17 +50,17 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Introduction</a>
+          <li class="nav-item">
+            <p class="nav-link" id="introLink">Introduction</p>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Skills</a>
+            <p class="nav-link" id="skillLink">Skills</p>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <p class="nav-link" id="portLink">Portfolio</p>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
+            <p class="nav-link" id="contactLink">Contact</p>
           </li>
         </ul>
       </div>
@@ -63,8 +70,8 @@
   </nav>
 
 
- <!-- ------------------------- IntroDuction ---------------------------------- -->
-  <div class="container">
+  <!-- ------------------------- IntroDuction ---------------------------------- -->
+  <div class="container" id="intro">
     <div class="row">
       <section class="container main-container col-lg-8 justify-content-lg-center">
 
@@ -88,7 +95,8 @@
       </section>
 
       <!-- ---------------------CONTECT WITH ME SIDEBAR ---------------------- -->
-      <section class="container main-container col-lg-2 justify-content-lg-center justify-content-md-center">
+      <section id="sidebar"
+        class="container main-container col-lg-2 justify-content-lg-center justify-content-md-center">
         <h2 id="connectWithMe">Connect with me</h2>
 
         <div class="connect">
@@ -121,7 +129,7 @@
 
 
   <!------------------------ SKILLS SECTION ----------------------------------------- -->
-  <div class="container">
+  <div class="container" id="skills">
     <div class="row">
       <section class="container main-container col-lg-11 justify-content-lg-center">
         <h1>Skills</h1>
@@ -159,7 +167,7 @@
 
 
   <!---------------------------------------- PORTFOLIO --------------------------- -->
-  <div class="container">
+  <div class="container" id="portfolio">
     <div class="row">
 
       <section class="container portfolio-container col-lg-12 justify-content-lg-center justify-content-md-center">
@@ -272,7 +280,7 @@
 
             <div class="item overflow-auto">
               <img class="pic" src="./images/adventureTimejpg.jpg" alt="Adventuretime">
-              <a href="https://cassandraheil.github.io/Clicky-Game/">
+              <a href="https://cassandraheil.github.io/Adventure-Time-Memory-Game/">
                 <h4 id="adventure">Memory Game</h4>
               </a>
               <p class="descript">This Adventure Time themed memory game is fun for all ages. </p>
@@ -283,7 +291,7 @@
                 <li>JSX</li>
                 <li>State and Props</li>
               </ul>
-              <a href="https://github.com/Cassandraheil/Clicky-Game">
+              <a href="https://github.com/Cassandraheil/Adventure-Time-Memory-Game">
                 <p class="git">github code</p>
               </a>
             </div>
@@ -404,35 +412,37 @@
 
 
   <!-- ----------------------------------- CONTACT ME -----------------------------------------------  -->
-  <div class="container">
+  <div class="container" id="contact">
     <div class="row">
       <section class="container main-container col-lg-12 justify-content-lg-center justify-content-md-center">
         <h2 id="connectWithMe">Connect with me</h2>
+        <div class="row">
 
-        <div class="connect">
-          <a href="https://www.linkedin.com/in/cassandra-heil-5204b5197/">
-            <img src="./images/linkedin.png" alt="linkedIn">
-            <h3>LinkedIn</h3>
-          </a></div>
+          <div class="withme col-3">
+            <a href="https://www.linkedin.com/in/cassandra-heil-5204b5197/">
+              <img src="./images/linkedin.png" alt="linkedIn">
+              <h3>LinkedIn</h3>
+            </a></div>
 
-        <div class="connect">
-          <a href="https://github.com/Cassandraheil">
-            <img src="./images/github.png" alt="Github">
-            <h3>Github</h3>
-          </a></div>
+          <div class="withme col-3">
+            <a href="https://github.com/Cassandraheil">
+              <img src="./images/github.png" alt="Github">
+              <h3>Github</h3>
+            </a></div>
 
-        <div class="connect">
-          <a href="https://docs.google.com/document/d/1_MrSLcZXvkkSLI7hSz1e7cRnJU-4QXVVDaudXpB8zyc/edit?usp=sharing">
-            <img src="./images/resume.png" alt="Resume">
-            <h3>Resume</h3>
-          </a></div>
+          <div class="withme col-3">
+            <a href="https://docs.google.com/document/d/1_MrSLcZXvkkSLI7hSz1e7cRnJU-4QXVVDaudXpB8zyc/edit?usp=sharing">
+              <img src="./images/resume.png" alt="Resume">
+              <h3>Resume</h3>
+            </a></div>
 
-        <div class="connect">
-          <img src="./images/emailz.jpg" alt="Email">
-          <h3>Email</h3>
+          <div class="withme col-3" id="emailPopover" data-toggle="popover" title="email" data-content="cassandraheil">
+            <img src="./images/emailz.jpg" alt="Email" >
+            <h3>Email</h3>
+
+          </div>
           <p class="email">Cassandraheil1998@gmail.com</p>
         </div>
-
       </section>
     </div>
   </div>
@@ -444,7 +454,7 @@
     <div class="row">
       <section class="container main-container col-lg-12 justify-content-lg-center">
         <h1>Know A Little More About Me</h1>
-        <img class="me" src="/images/blueness.jpg" alt="placeholder picture">
+        <img class="me" src="./images/windwaker.jpg" alt="Placeholder Picture">
         <p>When I'm not working on my programming skills, I am playing video games, petting my pet rabbit, or enjoying
           the game of Dungeons and Dragons (DnD). Yep, you guessed it, I'm a nerd, and proud of it!
 
@@ -477,6 +487,8 @@
 
   </footer>
 
+
+  <script type="text/javascript" src="javascript/scroll.js"></script>
 
   <script src="owlcarousel/owl.carousel.min.js"></script>
   <script src="owlcarousel/jquery.js"></script>

@@ -4,7 +4,7 @@
     float: left;
     margin-top: 10px;
     margin-right: 25px;
-    border: 10px double gainsboro;
+    border: 10px double rgb(62, 9, 148);
     border-radius: 350px;
 }
 /* .mywork {
@@ -48,7 +48,7 @@ header {
     padding-bottom: 80px;
     width: 100%;
     max-width: 960px;
-    border: 1px solid lightcyan;
+    border: 3px solid black;
     height: 100%;
     position: relative;
     margin: 25px;
@@ -108,7 +108,7 @@ h1 {
     font-size: 25px;
     line-height: 50px;
     font-weight: 500;
-    border-bottom: 3px solid #ddd;
+    border-bottom: 3px solid black;
     text-align: center;
 }
 h2, h3{
@@ -118,6 +118,20 @@ h2, h3{
 .connect{
     text-align: center;
     padding-bottom: 20px;
+}
+
+.withme {
+    /* position: inline; */
+    text-align: center;
+
+}
+.email {
+    position: absolute;
+  bottom: 4px;
+  right: 10px;
+  font-size: 16px;
+  padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 
@@ -252,6 +266,20 @@ h4:hover{
 }
 .git{
     text-align: center;
+}
+.fa-chevron-left {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: aliceblue;
+    background-color: chartreuse;
+    font-size: 40px;
+}
+.fa-chevron-right {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: aliceblue;
+    background-color: blue;
+    font-size: 40px;
 }
 
 .skillList {
@@ -388,4 +416,11 @@ ul {
     .me{
         width: 100%;
     }
+    
+  }
+
+  @media screen and (max-width: 980px) {
+     #sidebar {
+        display: none;
+    } 
   }

@@ -5,7 +5,10 @@ owl.owlCarousel({
     margin:10,
     autoplay:true,
     autoplayTimeout:2000,
-    autoplayHoverPause:true
+    autoplayHoverPause:true,
+    smartSpeed :900,
+    nav: true,
+    navText: ["<i class='fas fa-angle-double-left'></i>", "<i class='fas fa-angle-double-right'></i>"]
 });
 $('.play').on('click',function(){
     owl.trigger('play.owl.autoplay',[1000])
