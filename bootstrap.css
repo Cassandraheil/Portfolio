@@ -307,7 +307,7 @@ ul {
 }
 
 #teemo1{ 
-    border: 10px dotted navy;
+    border: 15px double navy;
     border-radius: 100px;
     display: block;
   margin-left: auto;
