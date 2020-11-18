@@ -40,7 +40,6 @@ var btn = document.getElementById("emailModalBtn");
 var span = document.getElementsByClassName("closeBtn")[0];
 
 btn.onclick = function() {
-    console.log("email btn clicked")
   modal.style.display = "block";
 }
 span.onclick = function() {
