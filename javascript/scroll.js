@@ -28,6 +28,26 @@ contactLink.onclick = function(){
 }
 
 
-$(document).ready(function(){
-    $("#emailPopover").popover();
-})
+// poppover i might use in the future
+// $(document).ready(function(){
+//     $("#emailPopover").popover();
+// })
+
+
+// Call/put away Le Modal
+var modal = document.getElementById("emailModal");
+var btn = document.getElementById("emailModalBtn");
+var span = document.getElementsByClassName("closeBtn")[0];
+
+btn.onclick = function() {
+    console.log("email btn clicked")
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
