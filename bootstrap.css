@@ -138,6 +138,7 @@ h2, h3{
   /* padding-bottom: 10px; */
   padding-right: 10px;
 }
+
 #emailModal {
     display: none; 
     position: fixed; 
