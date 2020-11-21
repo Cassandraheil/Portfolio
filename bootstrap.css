@@ -344,7 +344,10 @@ ul {
     padding: 0px;
 }
 
-#teemo1{ 
+.teemo{
+    width: auto;
+}
+/* #teemo1{ 
     border: 15px double navy;
     border-radius: 100px;
     display: block;
@@ -433,7 +436,7 @@ ul {
     margin: 5px;
     border-radius: 20px;
     width: 50%;
-}
+} */
 
 @media screen and (max-width: 600px) {
     .link {
