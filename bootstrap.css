@@ -357,86 +357,74 @@ ul {
   padding: 5px;
   margin-top: 15px;
 }
-/* #teemo2{ 
+#teemo2{ 
     border: 5px dashed gold;
     padding: 5px;
     margin: 5px;
-    width: 45%;
     
 }
 #teemo3{ 
     border: 7px solid blueviolet;
     padding: 5px;
     margin: 5px;
-    width: 45%;
 }
 #teemo4{ 
     border: 10px double yellowgreen;
     border-radius: 200px;
     padding: 5px;
     margin: 5px;
-    width: 45%;
 }
 #teemo5{ 
     border: 5px groove hotpink;
     border-radius: 10px;
     padding: 5px;
     margin: 5px;
-    width: 45%;
 }
 #teemo6{ 
     border: 10px ridge orangered;
     border-radius: 150px;
     padding: 5px;
     margin: 5px;
-    width: 45%;
 }
 #teemo7{ 
     border: 5px inset peru;
     padding: 5px;
     margin: 5px;
-    width: 45%;
 }
 #teemo8{ 
     border: 5px outset purple;
     border-radius: 180px;
     padding: 5px;
     margin: 5px;
-    width: 45%;
 }
 #teemo9{ 
     border: 15px double darkcyan;
     padding: 5px;
     margin: 5px;
-    width: 45%;
 }
 #teemo10{ 
     border: 5px dashed darkolivegreen;
     border-radius: 80px;
     padding: 5px;
     margin: 5px;
-    width: 45%;
 }
 #teemo11{ 
     border: 10px groove tomato; 
     padding: 5px; 
     margin: 5px;
-    width: 45%;
 }
 #teemo12{ 
     border: 5px solid blue;
     padding: 5px;
     margin: 5px;
     border-radius: 20px;
-    width: 50%;
 }
 #teemo13{ 
     border: 8px dotted darkorchid;
     padding: 5px;
     margin: 5px;
     border-radius: 20px;
-    width: 50%;
-} */
+} 
 
 @media screen and (max-width: 600px) {
     .link {
