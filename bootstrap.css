@@ -347,7 +347,7 @@ ul {
 .teemo{
     width: auto;
 }
-/* #teemo1{ 
+ #teemo1{ 
     border: 15px double navy;
     border-radius: 100px;
     display: block;
@@ -357,7 +357,7 @@ ul {
   padding: 5px;
   margin-top: 15px;
 }
-#teemo2{ 
+/* #teemo2{ 
     border: 5px dashed gold;
     padding: 5px;
     margin: 5px;
