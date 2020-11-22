@@ -9,8 +9,8 @@ owl.owlCarousel({
     autoplayTimeout:2000,
     autoplayHoverPause:false,
     smartSpeed :2500,
-    nav: true
-    // navText: ["<i class='fas fa-angle-double-left'></i>", "<i class='fas fa-angle-double-right'></i>"]
+    nav: true,
+    navText: [$('.am-prev'),$('.am-next')]
 });
 $('.play').on('click',function(){
     owl.trigger('play.owl.autoplay',[2000])
